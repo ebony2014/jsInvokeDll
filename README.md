@@ -24,6 +24,7 @@
 * ActiveX仅支持除了微软新出的Edge浏览器之外的所有IE浏览器<br>
 * NPAPI支持360浏览器、chrome42版本以下、Opera、Firefox等浏览器，但它已经停止维护和更新了<br>
 * PPAPI支持chrome42版本或以上<br>
+
 要开发NPAPI或PPAPI插件，还需了解一些底层语言，具体如何实现，我还在研究中，欢迎给予帮助，提出不同观点！<br>
 
 
