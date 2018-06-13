@@ -1,7 +1,7 @@
 如何用js直接调用c/c++编写的dll
 ---
 
-最近在调研如何用js直接调用c/c++编写的dll，根据浏览器的差异，使用的技术也不相同。最简单的是利用IE内置插件ActiveX（具体代码已上传到附件），js 可以通过new ActiveXObject()直接获取dll，但是我在IE浏览器上调取的时候首先提示我<br>
+最近在调研如何用js直接调用c/c++编写的dll，根据浏览器的差异，使用的技术也不相同。最简单的是利用IE内置插件ActiveX（具体代码已上传），js 可以通过new ActiveXObject()直接获取dll，但是我在IE浏览器上调取的时候首先提示我<br>
 
 >Internet Explorer 已限制此网页运行 脚本或 ActiveX 控件<br>
 
