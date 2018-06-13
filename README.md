@@ -14,8 +14,10 @@
 1 将DLLTest.dll方到C:\Windows\System32下面（如果是64位系统机子，需要放到C:\Windows\SysWoW64下面）<br>
 2 用管理员身份打开命令行界面,将目录切换到放置DLLTest.dll的目录（我的机子是C:\\Windows\SysWoW64） 运行 regsvr32 DLLTest.dll<br>
 
-如果你是win10系统可以尝试《Win10注册DLL办法》里的方法注册dll文件<br>
+如果你是win10系统可以尝试[《Win10注册DLL办法》](https://blog.csdn.net/xqf222/article/details/56670786)里的方法注册dll文件<br>
+
 然后成功调取dll文件里的方法返回“hello world”<br>
+
 为了兼容更多浏览器，我又了解到（NPAPI、PPAPI）等非IE浏览器插件，前者很多银行已经支持NPAPI版本的安全控件，但NPAPI 却做为不安全因素被主流浏览器（Chrome、FireFox）抛弃。后者Chrome提出的名叫PPAPI的全新插件机制，运行在Chrome浏览器的沙箱环境。<br>
 
 目前这三种方式的兼容性如下<br>
